@@ -1,5 +1,113 @@
 body {
-    background-color: aqua;
+    background-color: #D5FAFC;
+    font-family: "Manrope", sans-serif;
     margin: 0;
+    color:#18191F;
+}
+
+
+.container {
+    width: 920px;
+    height: 708px;
+    margin: 0 auto;
     
+
+}
+
+.left {
+    width: 460px;
+    height: 708px;
+    background-color:#D5FAFC;
+    display: inline-block;
+    vertical-align: middle;
+    
+    
+}
+
+.right {
+    width: 460px;
+    height: 708px;
+    background-color:#D5FAFC;
+    display: inline-block;
+    margin-left: -4px;
+    vertical-align: middle;
+
+}
+
+.air, .book, .hub{
+
+background-color: #FFFFFF
+
+}
+
+
+.title {
+    margin-top: 1px;
+    font-weight: 800;
+    font-size: 48px;
+    height: 95px;
+    margin-bottom: -8px;
+   
+}
+ .Subtitle {
+    font-size: 16px;
+    margin-bottom: 24px;
+    padding-left: 0px;
+ }
+
+ .hub {
+     width: 350px;
+     height: 436px;
+     margin-left: 94px;
+     
+ }
+   
+ img {
+    padding-top: 32px;
+    padding-left: 32px;   
+}
+ 
+p {
+    padding-left: 64px;
+    padding-right: 32px;
+    padding-top: 20px;
+    font-size: 16px;
+    line-height: 32px; 
+    padding-bottom: 15px;
+   
+
+}    
+.floyd {
+
+    font-size: 14px;
+    width: 142px;
+    margin-bottom: -20px; 
+    padding-left: 64px;
+    
+}
+ 
+.vice {  
+    color:#969BAB; 
+    padding-left: 65px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    
+    
+   
+}   
+.air {
+    width: 445px;
+    height: 340px;
+    margin-top: 45px;
+    margin-left: 15px;
+    
+}  
+
+.book {
+    width: 350px;
+    height: 276px;
+    margin-top: 45px;
+    
+
 }
