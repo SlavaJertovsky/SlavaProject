@@ -1,7 +1,7 @@
 @font-face {
     font-family: "Manrope";
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     /* Браузер сначала попробует найти шрифт локально */
     src: local("Manrope"),
          /* Если не получилось, загрузит woff2 */

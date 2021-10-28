@@ -38,27 +38,30 @@ body {
 
 background-color: #FFFFFF
 
+
 }
 
 
 .title {
-    margin-top: 1px;
+    margin-top: 2px;
     font-weight: 800;
     font-size: 48px;
-    height: 95px;
-    margin-bottom: -8px;
+    margin-bottom: -15px;
    
 }
  .Subtitle {
-    font-size: 16px;
-    margin-bottom: 24px;
-    padding-left: 0px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-left: -55px; 
+     
  }
 
  .hub {
+     
      width: 350px;
      height: 436px;
      margin-left: 94px;
+     border-radius: 8px;
      
  }
    
@@ -68,16 +71,16 @@ background-color: #FFFFFF
 }
  
 p {
-    padding-left: 64px;
-    padding-right: 32px;
-    padding-top: 20px;
+    padding-left: 60px;
+    padding-right: 35px;
+    padding-top: 12px;
     font-size: 16px;
     line-height: 32px; 
     padding-bottom: 15px;
    
 
 }    
-.floyd {
+.name {
 
     font-size: 14px;
     width: 142px;
@@ -86,11 +89,11 @@ p {
     
 }
  
-.vice {  
+.post {  
     color:#969BAB; 
     padding-left: 65px;
-    font-weight: 500;
-    font-size: 14px;
+    font-weight: 400;
+    font-size: 16px;
     line-height: 24px;
     
     
@@ -101,13 +104,16 @@ p {
     height: 340px;
     margin-top: 45px;
     margin-left: 15px;
+    border-radius: 8px;
+    
     
 }  
 
 .book {
     width: 350px;
     height: 276px;
-    margin-top: 45px;
+    margin-top: 60px;
+    border-radius: 8px;
     
 
 }
