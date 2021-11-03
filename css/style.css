@@ -1,120 +1,53 @@
 body {
-    background-color: #D5FAFC;
+    background-color:  #FFFFFF;
     font-family: "Manrope", sans-serif;
     margin: 0;
     color:#18191F;
+
 }
 
+section { 
+    background-color:#8C30F5;
+    height: 200px;
+    position: relative;    
+    
+}
 
 .container {
-    width: 920px;
-    height: 708px;
+    width:1110px;
     margin: 0 auto;
-    margin-top: 200px;
-    
-
-}
-
-.left {
-    width: 460px;
-    height: 708px;
-    background-color:#D5FAFC;
-    display: inline-block;
-    vertical-align: middle;
-    
     
 }
 
-.right {
-    width: 460px;
-    height: 708px;
-    background-color:#D5FAFC;
-    display: inline-block;
-    margin-left: -4px;
-    vertical-align: middle;
-
-}
-
-.air, .book, .hub{
-
-background-color: #FFFFFF
-
-
+.wrapper {
+    width:1110px;
+    height: 240px;
+    position: absolute;
+    margin-top: 80px;   
+    background-color:white;
+    border-radius: 8px; 
+    box-shadow: 0px 0px 5px;
+    
+   
 }
 
 
-.title {
-    margin-top: 2px;
+.blockgit {
+    display: inline-block;     
+    text-align: center;
+    margin: 70px;
+    margin-top: 32px;
+    line-height: 1px;
+    
+    
+}
+
+
+h3 {
     font-weight: 800;
     font-size: 48px;
-    margin-bottom: -15px;
-   
+    color:#8C30F5;
 }
- .Subtitle {
-    font-size: 18px;
-    margin-bottom: 10px;
-    margin-left: -55px; 
-     
- }
 
- .hub {
-     
-     width: 350px;
-     height: 436px;
-     margin-left: 94px;
-     border-radius: 8px;
-     
- }
-   
- img {
-    padding-top: 32px;
-    padding-left: 32px;   
-}
- 
-p {
-    padding-left: 60px;
-    padding-right: 35px;
-    padding-top: 12px;
-    font-size: 16px;
-    line-height: 32px; 
-    padding-bottom: 15px;
-   
 
-}    
-.name {
 
-    font-size: 14px;
-    width: 142px;
-    margin-bottom: -20px; 
-    padding-left: 64px;
-    
-}
- 
-.post {  
-    color:#969BAB; 
-    padding-left: 65px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    
-    
-   
-}   
-.air {
-    width: 445px;
-    height: 340px;
-    margin-top: 45px;
-    margin-left: 15px;
-    border-radius: 8px;
-    
-    
-}  
-
-.book {
-    width: 350px;
-    height: 276px;
-    margin-top: 60px;
-    border-radius: 8px;
-    
-
-}

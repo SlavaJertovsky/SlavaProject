@@ -1,7 +1,7 @@
 @font-face {
     font-family: "Manrope";
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     /* Браузер сначала попробует найти шрифт локально */
     src: local("Manrope"),
          /* Если не получилось, загрузит woff2 */
@@ -9,4 +9,15 @@
          /* Если браузер не поддерживает woff2, загрузит woff */
          url("/fonts/Manrope-Medium.woff") format("woff");
   }
-        
+ 
+  @font-face {
+    font-family: "Manrope";
+    font-style:normal;
+    font-weight: 800;
+    /* Браузер сначала попробует найти шрифт локально */
+    src: local("Manrope"),
+         /* Если не получилось, загрузит woff2 */
+         url("/fonts/Manrope-ExtraBold.woff2") format("woff2"),
+         /* Если браузер не поддерживает woff2, загрузит woff */
+         url("/fonts/Manrope-ExtraBold.woff") format("woff");
+  }
